@@ -97,7 +97,7 @@ http://www.templatemo.com/tm-509-hydro
   .section-title h2 {
     margin-top: 0;
     margin-bottom: 10px;
-    line-height: 0;
+    /* line-height: 0; */
   }
 
   .section-title .line-bar {
@@ -389,6 +389,12 @@ http://www.templatemo.com/tm-509-hydro
     margin-top: 60px;
   }
 
+  .about-image{
+    margin: 40px 0 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+
   .skill-thumb strong {
     display: inline-block;
     margin-bottom: 10px;
@@ -527,6 +533,19 @@ http://www.templatemo.com/tm-509-hydro
     height: 350px;
   }
 
+  .blog-detail-thumb ul{
+    color: #757575;
+  }
+
+  .blog-image{
+    display: flex;
+    justify-content: center;
+  }
+
+  section.blog-project{
+    padding-bottom: 0px;
+  }
+  
   .media.blog-thumb .media-left {
     width: 45%;
   }
@@ -712,8 +731,8 @@ http://www.templatemo.com/tm-509-hydro
     background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 40px;
   }
 
   footer h2 {
